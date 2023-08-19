@@ -77,7 +77,7 @@ catch(err){
                 <h3>Sign in to your account</h3>
             </div>
             <div className="form-group">
-            <label htmlFor="username">Your email</label><br></br>
+            <label htmlFor="username">Your Username</label><br></br>
             </div>
             <div className="form-group">
             <input type="text" placeholder="Enter your email" onChange={(e)=>{setUser({...user,username:e.target.value})}}></input>
