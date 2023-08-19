@@ -80,7 +80,7 @@ catch(err){
             <label htmlFor="username">Your Username</label><br></br>
             </div>
             <div className="form-group">
-            <input type="text" placeholder="Enter your email" onChange={(e)=>{setUser({...user,username:e.target.value})}}></input>
+            <input type="text" placeholder="Enter your username" onChange={(e)=>{setUser({...user,username:e.target.value})}}></input>
             </div>
             <div className="form-group">
             <label htmlFor="password">Password</label><br></br>
